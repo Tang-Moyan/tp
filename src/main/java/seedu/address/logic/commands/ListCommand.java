@@ -14,6 +14,9 @@ public class ListCommand extends Command {
 
     public static final String MESSAGE_SUCCESS = "Listed all persons";
 
+    private static final String INFORMATION_BEGINS = "====> ";
+    private static final String INDENTATION = "    ";
+
 
     @Override
     public CommandResult execute(Model model) {
